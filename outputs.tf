@@ -12,3 +12,8 @@ output "private_subnet_ids" {
   description = "IDs of the private subnets"
   value       = module.vpc.private_subnet_ids
 }
+
+output "web_sg_id" {
+  description = "The ID of the web security group"
+  value       = aws_security_group.web_sg.id
+}
