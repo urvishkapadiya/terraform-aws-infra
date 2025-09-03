@@ -1,4 +1,4 @@
-# Terraform AWS VPC with Public and Private Subnets
+# Terraform AWS VPC with Public and Private Subnets (Coding Challenge)
 
 This project provisions an AWS Virtual Private Cloud (VPC) and AWS EC2 using **Terraform**, including **3 public subnets, 3 private subnets, an Internet Gateway, NAT Gateways, and route tables** across multiple Availability Zones. It also demonstrates modular Terraform structure for scalability and reusability.
 
